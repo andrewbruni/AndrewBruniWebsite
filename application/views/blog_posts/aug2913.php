@@ -1,0 +1,4 @@
+        <div id="blog-posts"> 
+        	<h1 id=blogPostHead><a href="../blog">August 29th, 2013</a></h1>
+        	<p id=blogPostP> Today we finally adjusted to the local time and woke up at a reasonable hour. Took the metro into the city and quickly became lost trying to find the correct bus stop. Once we found our way we made it to the Ciudad de las Artes, where the science museum is located. The buildings were crafted beautifully and were quite a sight to see. Later we returned to the hotel to take a quick nap before eating dinner. We ventured out around the hotel and found a little cafe that was busy with people and sat down to eat. Our meal consisted of fresh salmon with mozzarella cheese to start, followed by grilled squid and garlic roasted shrimp. Tomorrow we are off to Madrid for our final day before meeting with the school group. </p>
+        </div>

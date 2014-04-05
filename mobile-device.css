@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+  display: block;
+  background-color: #333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#333));
+  background-image: -webkit-linear-gradient(top, #555, #333);
+  background-image: -moz-linear-gradient(top, #555, #333);
+  background-image: -ms-linear-gradient(top, #555, #333);
+  background-image: -o-linear-gradient(top, #555, #333);
+  background-image: linear-gradient(top, #555, #333);  
+  -moz-box-shadow: 0 5px 5px #000;
+  -webkit-box-shadow: 0 5px 5px #000;
+  box-shadow: 0 5px 5px #000;  
+  padding: 10px 0;
+  margin-top: 10px ; 
+  margin-left: 1%;
+ 
+  overflow: auto;
+  position:auto;
+  width:97%;
+  top:0;
+}
+
+#logo {
+  position: auto;
+  top: 6px;
+  left: 50px;
+  width: 120px;
+  height: auto;
+}
+/* Start Nav Bar*/
+nav
+{
+	float: right;
+	padding-right: 50px ; 
+}
+
+nav ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;  	
+}
+
+nav li
+{
+	float: left;
+}
+
+nav a
+{
+    float: left;
+    color: #eee;
+    margin: 0 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #831608;
+    font: bold 14px Arial, Helvetica; 	
+    background-color: #831608;
+    background-image: -moz-linear-gradient(#bb413b, #831608);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bb413b), to(#831608));    
+    background-image: -webkit-linear-gradient(#bb413b, #831608);
+    background-image: -o-linear-gradient(#bb413b, #831608);
+    background-image: -ms-linear-gradient(#bb413b, #831608);
+    background-image: linear-gradient(#bb413b, #831608);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.8);    
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 3px 0 rgba(0, 0, 0, 0.7), 0 2px 2px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;	
+}
+
+nav a:hover
+{
+    background-color: #bb413b;
+    background-image: -moz-linear-gradient(#831608, #bb413b);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#831608), to(#bb413b));      
+    background-image: -webkit-linear-gradient(#831608, #bb413b);
+    background-image: -o-linear-gradient(#831608, #bb413b);
+    background-image: -ms-linear-gradient(#831608, #bb413b);
+    background-image: linear-gradient(#831608, #bb413b);
+}
+
+nav a:active
+{
+    background: #bb413b;
+    position: relative;
+    top: 2px;    
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+
+nav span
+{
+    border: 1px dashed #eba1a3;
+    display: inline-block;
+    padding: 7px 20px;
+    cursor: pointer;	
+    background-color: #bb413b;
+    background-image: -moz-linear-gradient(#d4463c, #aa2618);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d4463c), to(#aa2618));      
+    background-image: -webkit-linear-gradient(#d4463c, #aa2618);
+    background-image: -o-linear-gradient(#d4463c, #aa2618);
+    background-image: -ms-linear-gradient(#d4463c, #aa2618);
+    background-image: linear-gradient(#d4463c, #aa2618);
+}
+
+
+nav a:hover span
+{	
+    background-color: #bb413b;
+    background-image: -moz-linear-gradient(#aa2618, #d4463c);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#aa2618), to(#d4463c));      
+    background-image: -webkit-linear-gradient(#aa2618, #d4463c);
+    background-image: -o-linear-gradient(#aa2618, #d4463c);
+    background-image: -ms-linear-gradient(#aa2618, #d4463c);
+    background-image: linear-gradient(#aa2618, #d4463c);
+}
+
+/* End Nav Bar */ 
+
+/* Light Box */ 
+#lightbox
+{
+	width: 70% ;
+	margin-left: 27% ;
+	position: inherit ; 	
+}
+
+.thumbs { margin-top: -10px ; margin-right: -6% ; align: center ; position:static ;  overflow: hidden; }
+.thumbs li { list-style: none; float: left; margin: 5px; padding: 3px; background: #eee; -moz-box-shadow: 0 0 4px #444; -webkit-box-shadow: 0 0 2px #000; }
+.thumbs li a { }
+.thumbs li img { display: block; }
+.thumbs li a img { border: none;}
+/* End Light Box */ 
+
+#container 
+{
+	width: 80%; 
+	padding: 50px; 
+	background: #969696 ; 
+	margin: 20px auto; 
+	text-align: left; 
+	overflow: auto;
+	position: inherit ;
+}
+
+#container2
+{
+	width: 20% ; 
+	margin-top: -50px ; 
+	float: left ; 
+	height:auto ; 
+	overflow: auto;
+	position: inherit ;
+}
+
+.clear { clear: both; }
+
+/* Horizotal and Vertical Line */ 
+#hr {
+background: #fff  no-repeat scroll center;
+margin-left: 30%;
+margin-right: 30%;
+margin-top: 4px ; 
+margin-bottom: 2px ; 
+width: 65%;
+height:2px;
+}
+
+#hr hr {
+display: none;
+}
+
+#hr-blog {
+background: #fff  no-repeat scroll center;
+width: 100%;
+height:2px;
+margin-top: 35px ;
+}
+
+#hr-blog hr-blog {
+display: none;
+}
+
+/* End Horizontal and Vertical Line */ 
+
+body, html{
+	height: 100% ; 
+	background-color: #767676 ; 
+}
+
+#cbox img {
+    border:none;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+b, img {
+    border:none;
+	margin-bottom: 10px;
+	margin-right: 8px;
+}
+
+p span 
+{
+	color: white ; 
+	font-family: 'PT Sans', sans-serif;	
+ 	text-decoration: none ; 
+    display: block;
+
+}
+
+
+#blog
+{	
+	width: 100% ;
+	float:left ;  
+}
+
+
+
+/* Titles */
+#recent-photos
+{
+	margin-left: 30% ; 
+	font-size: 25px ; 
+	font-family: 'PT Sans', sans-serif;
+	color: white ; 	 
+	
+}
+
+#updates
+{
+	margin-left: 0% ; 
+	margin-top: -60px ; 
+	color: white ; 
+}
+
+#blog_title
+{
+	font-size: 20px ; 
+	font-family: 'PT Sans', sans-serif;
+	color: white ; 	
+}
+/* End Titles */
+
+/* Blog Posts Home Page */ 
+#blogPostHead
+{
+	margin-left: 30% ; 
+	font-size: 25px ; 
+	font-family: 'PT Sans', sans-serif;
+	color: white ; 	
+}
+
+#blogPostHead a
+{
+	color: white ; 
+    text-decoration: none;	
+}
+
+#blogPostP
+{
+	margin-left: 32% ; 
+	margin-right: 5% ; 
+	font-size: 18px ; 
+	font-family: 'PT Sans', sans-serif;
+	color: white ; 	
+}
+
+#blogP
+{
+	font-size: 16px ; 
+	font-family: 'PT Sans', sans-serif;
+	color: white ;
+}
+#blogP a
+{
+	color: white ; 
+    text-decoration: none;	
+}
+
+#blogP a
+{
+	color: white ; 
+    text-decoration: none;	
+}
+/* End Blog Posts Home Page */

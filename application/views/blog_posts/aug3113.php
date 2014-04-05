@@ -1,0 +1,5 @@
+
+        <div id="blog-posts"> 
+        	<h1 id=blogPostHead><a href="../blog">August 31st, 2013</a></h1>
+        	<p id=blogPostP>We met at the airport this morning with the ISA school group and continued to the hotel in the center of Madrid. Our hotel is directly across the street from the train station and the Parque de Retiro. We wandered around the city staying close to the hotel and eating lunch at a cafe in the plaza outside of the Museo de las Artes Reina Sofia, where they currently have a Dali exhibit, and went back to the hotel for a quick nap. After a meeting with the school group and a short bus tour of Madrid, we wandered off again to have dinner and drinks as a group. Tomorrow we are going to another museum as well as participating in a walking tour of Madrid.</p>
+        </div>
